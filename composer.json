@@ -1,0 +1,17 @@
+{
+    "name": "nicolas/pdo",
+    "description": "um programa que mexe com banco",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nicolas\\Pdo\\": "src/"
+        }
+    },
+    "require": {},
+    "scripts": {
+        "cs":"phpcs --standard=PSR12"
+    }
+}
+    
